@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\bin\Release\netstandard2.0\RSS.deps.json
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\bin\Release\netstandard2.0\RSS.dll
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\bin\Release\netstandard2.0\ref\RSS.dll
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\bin\Release\netstandard2.0\RSS.pdb
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\obj\Release\netstandard2.0\RSS.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\obj\Release\netstandard2.0\Views\PostPage.xaml.g.cs
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\obj\Release\netstandard2.0\RSS.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\obj\Release\netstandard2.0\RSS.AssemblyInfo.cs
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\obj\Release\netstandard2.0\RSS.dll
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\obj\Release\netstandard2.0\ref\RSS.dll
+C:\Users\user\Desktop\Xamarin_Forms\RSS\RSS\obj\Release\netstandard2.0\RSS.pdb
