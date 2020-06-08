@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +18,9 @@ namespace RSS
 
         protected override void OnStart()
         {
+            string androidAppSecret = "7ea84170-8351-43e1-82cb-6339e4657c6f";
+            string iOSAppSecret = "3b21ac14-4d69-401b-81a3-41eb3c3e72f1";
+            AppCenter.Start($"android={androidAppSecret};ios={iOSAppSecret}",typeof(Crashes), typeof(Analytics));
         }
 
         protected override void OnSleep()

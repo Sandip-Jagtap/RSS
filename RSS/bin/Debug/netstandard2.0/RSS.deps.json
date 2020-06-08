@@ -9,12 +9,56 @@
     ".NETStandard,Version=v2.0/": {
       "RSS/1.0.0": {
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "3.2.2",
+          "Microsoft.AppCenter.Crashes": "3.2.2",
+          "Microsoft.AppCenter.Push": "3.2.2",
           "NETStandard.Library": "2.0.3",
-          "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.908675"
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.6.0.847"
         },
         "runtime": {
           "RSS.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/3.2.2": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "3.2.2.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/3.2.2": {
+        "dependencies": {
+          "Microsoft.AppCenter": "3.2.2"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "3.2.2.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/3.2.2": {
+        "dependencies": {
+          "Microsoft.AppCenter": "3.2.2"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "3.2.2.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Push/3.2.2": {
+        "dependencies": {
+          "Microsoft.AppCenter": "3.2.2"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Push.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "3.2.2.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -31,7 +75,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.3.1": {
+      "Xamarin.Essentials/1.5.3.2": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -42,19 +86,19 @@
           }
         }
       },
-      "Xamarin.Forms/4.3.0.908675": {
+      "Xamarin.Forms/4.6.0.847": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.3.0.336"
+            "fileVersion": "4.6.0.487"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.3.0.336"
+            "fileVersion": "4.6.0.487"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.3.0.336"
+            "fileVersion": "4.6.0.487"
           }
         }
       }
@@ -65,6 +109,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AppCenter/3.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qmpnmCQnNKx8a4xRtDEj7T6MOPPC9fnMfYmxDdMMKDEl4cUxwBp0RrUTuKzatfSo6txKbCRrBlrcPfUmNcOvkA==",
+      "path": "microsoft.appcenter/3.2.2",
+      "hashPath": "microsoft.appcenter.3.2.2.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Analytics/3.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+HMUgzHkD9TdWc5gChc5lj7gFluTbzGQn5mwdsWSMS4AXi3HK4Axj9HSYt1M9jFW/dK/PKxY9ysCDOk4AnxMLA==",
+      "path": "microsoft.appcenter.analytics/3.2.2",
+      "hashPath": "microsoft.appcenter.analytics.3.2.2.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/3.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OcRqm6vzuV0rUj9xE6qa/jHFJn0qin26o9R+11hDl7Lh/IQxzm5ReNVRNkOTK3W8Y6bdiDXDwBHfdFQlvbserg==",
+      "path": "microsoft.appcenter.crashes/3.2.2",
+      "hashPath": "microsoft.appcenter.crashes.3.2.2.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Push/3.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kR+AXmLyAe3BKJ6v430zEZApfYP7rp4ZDgv769da8IKQUW20s91JJQGV0X0kTUTP3OE5PcCLaHzJlqMfydGH/g==",
+      "path": "microsoft.appcenter.push/3.2.2",
+      "hashPath": "microsoft.appcenter.push.3.2.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -87,19 +159,19 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.3.1": {
+    "Xamarin.Essentials/1.5.3.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
-      "path": "xamarin.essentials/1.3.1",
-      "hashPath": "xamarin.essentials.1.3.1.nupkg.sha512"
+      "sha512": "sha512-BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
+      "path": "xamarin.essentials/1.5.3.2",
+      "hashPath": "xamarin.essentials.1.5.3.2.nupkg.sha512"
     },
-    "Xamarin.Forms/4.3.0.908675": {
+    "Xamarin.Forms/4.6.0.847": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kXrbXKJvXYF4cKjs1Jsb+pQFEnFGl0AONYSeABjgOJqN/o5Y4zC0XXQ68xiUI81PKQTuRB5F3oDom2t5ccJDZw==",
-      "path": "xamarin.forms/4.3.0.908675",
-      "hashPath": "xamarin.forms.4.3.0.908675.nupkg.sha512"
+      "sha512": "sha512-xUUgs1/xDdS9I/oN2UkdRwd/YToqg0qhwIK8yvyJJ2Xbhsc1ssV4/DUICdjuwCttzeiAcrhILqD+0BQhifUfxw==",
+      "path": "xamarin.forms/4.6.0.847",
+      "hashPath": "xamarin.forms.4.6.0.847.nupkg.sha512"
     }
   }
 }

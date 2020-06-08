@@ -42,13 +42,25 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Microsoft.AppCenter.Push": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.3.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.6.0.847, )"
             }
           }
         }
@@ -104,6 +116,18 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Microsoft.AppCenter.Push": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -112,11 +136,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.3.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.6.0.847, )"
             }
           },
           "imports": [
